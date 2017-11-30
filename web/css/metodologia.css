@@ -1,0 +1,122 @@
+.list-topicos
+{
+	display: block;
+	overflow: hidden;
+	margin: 2px;
+}
+.list-topicos a
+{
+	padding: 0 25px;
+	height: 50px;
+	display: block;
+	background-color: #fff;
+	border-bottom: solid 1px #e6e6e6;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+.list-topicos a:hover
+{
+	background-color: #f2f2f2;
+}
+.list-topicos a h2
+{
+	font-size: 14px;
+	line-height: 50px;
+	font-weight: 600;
+	color: #4d4d4d;
+}
+.buttons-align
+{
+	margin: 10px 0;
+}
+.modal
+{
+	display: none;
+	position: fixed;
+	top: 0; left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.2);
+	z-index: 201;
+}
+.popup-item
+{
+	position: relative;
+	top: 50%; left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	max-width: 80%;
+	background-color: #fff;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+	border-radius: 1px;
+	padding: 25px 35px;
+	cursor: default;
+}
+.popup-item h2
+{
+	font-size: 20px;
+	color: #4b4b4b;
+	margin-bottom: 15px;
+}
+.popup-item p
+{
+	font-size: 14px;
+}
+.popup-item .input-modal
+{
+	display: block;
+	width: 100%;
+	margin: 8px 0;
+	border: solid 1px #ccc;
+	padding: 5px;
+}
+.popup-item .submit-modal
+{
+	margin: 15px 0;
+	width: 90px;
+	border: solid 1px #d6d6d6;
+	background-color: #f2f2f2;
+	padding: 7px 0;
+	border-radius: 1px;
+	font-weight: bold;
+	color: #4b4b4b;
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+	margin-right: 10px;
+}
+.pop-message
+{
+	position: fixed;
+	visibility: hidden;
+	left: 10px;
+	bottom: 10px;
+	width: 300px;
+	border-radius: 1px;
+	background-color: #4b4b4b;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+	padding: 10px;
+	cursor: default;
+	z-index: 202;
+}
+.pop-message p
+{
+	color: #fff;
+	font-size: 12px;
+	line-height: 20px;
+	z-index: 2001;
+	position: relative;
+	letter-spacing: .5px;
+}
+@keyframes fadein {
+    from {bottom: -100px;visibility: hidden;}
+    to {bottom: 10px;visibility: visible;}
+}
+@keyframes fadeout {
+    from {bottom: 10px; visibility: visible;}
+    to {bottom: -100px; visibility: hidden;}
+}
+.pop-message.show
+{
+	animation: fadein 0.5s, fadeout 0.5s 4.5s;
+	visibility: visible;
+}
