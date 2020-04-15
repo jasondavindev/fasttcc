@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
 /* Variaveis */
 :root {
 	--primary-color: #2196F3;
@@ -11,7 +13,7 @@
 body {
 	color: #4c4c4c;
 	background-color: #f6f6f6;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 #wrap
 {
@@ -44,7 +46,6 @@ p.name-logo
 	display: block;
 	float: left;
 	font-size: 26px;
-	font-family: 'Segoe UI Bold';
 	font-weight: normal;
 	margin: 0 25px;
 	line-height: 36px;
@@ -87,7 +88,6 @@ p.name-logo
 }
 .dropdown a
 {
-	font-family: Roboto;
 	font-size: 14px;
 	color: #666;
 	text-decoration: none;
@@ -153,7 +153,7 @@ p.name-logo
 	padding: 15px;
 	font-size: 20px;
 	text-transform: uppercase;
-	font-family: Calibri;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	transition-duration: .35s;
 	cursor: pointer;
@@ -608,7 +608,6 @@ p.name-logo
 	background-color: transparent;
 	color: var(--primary-color);
 	border: none;
-	font-family: Roboto;
 	font-weight: bold;
 	text-transform: uppercase;
 	padding: 10px 0;

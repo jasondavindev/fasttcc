@@ -1,0 +1,33 @@
+version: "3.7"
+
+services:
+  app:
+    # image: php:7.0-apache
+    command: 'sh -c "apachectl start && until [ -n \"\" ]; do sleep 1; done;"'
+    build: 
+      context: .
+    image: fasttcc
+    tty: true
+    ports:
+      - 80:80
+    volumes:
+      - $PWD/fasttcc/web:/var/www/html
+    networks:
+      - internal
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    volumes:
+      - $PWD/volumes/mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ""
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_DATABASE: "fasttcc"
+    networks:
+      - internal
+
+networks:
+  internal:
+    driver: bridge

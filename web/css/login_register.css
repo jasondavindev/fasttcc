@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
 :root {
 	--primary-color: #2196F3;
 }
 body {
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	color: #777;
 }

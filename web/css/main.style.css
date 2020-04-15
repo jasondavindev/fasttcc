@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -7,7 +10,7 @@ a {
 	text-decoration: none;
 }
 body {
-	font-family: Roboto,'Helvetica';
+	font-family: 'Roboto', sans-serif;
 	background-color: #eee;
 	font-size: 13px;
 }
@@ -206,7 +209,6 @@ body {
 	transition: background-color .25s;
 	-webkit-transition: background-color .25s;
 	-moz-transition: background-color .25s;
-	font-family: Roboto;
 }
 .button-flat-no-padding
 {
@@ -221,7 +223,6 @@ body {
 	font-weight: bold;
 	cursor: pointer;
 	outline: none;
-	font-family: Roboto;
 }
 .button-raised
 {
@@ -239,7 +240,6 @@ body {
 	transition: background-color .25s;
 	-webkit-transition: background-color .25s;
 	-moz-transition: background-color .25s;
-	font-family: Roboto;
 	user-select: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -279,7 +279,6 @@ p.name-logo
 	display: block;
 	float: left;
 	font-size: 26px;
-	font-family: 'Segoe UI Bold';
 	font-weight: normal;
 	margin: 0 25px;
 	line-height: 36px;
@@ -328,7 +327,6 @@ p.name-logo
 }
 #dropdown a
 {
-	font-family: Roboto;
 	font-size: 14px;
 	color: #666;
 	text-decoration: none;
@@ -864,7 +862,6 @@ footer
 	padding: 10px 0;
 	font-size: 14px;
 	text-align: center;
-	font-family: 'Roboto';
 	color: #777;
 }
 .popup .buttons
@@ -1252,7 +1249,6 @@ footer
 	line-height: 1.846;
 	color: #666;
 	white-space: nowrap;
-	font-family: Roboto;
 	letter-spacing: 0.1px;
 }
 .dropdown-menu li a:hover {

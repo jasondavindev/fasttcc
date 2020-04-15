@@ -5,7 +5,7 @@ DEFINE("TEAM_NAME","ETEC");
 DEFINE("NAME_SESSION","xTTw990@avjn54s1");
 
 // Configuracoes Mysql
-DEFINE("HOST","127.0.0.1");
+DEFINE("HOST","db");
 DEFINE("USER","root");
 DEFINE("PASSWORD","");
 DEFINE("DATABASE","fasttcc");

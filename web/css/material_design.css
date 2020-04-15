@@ -114,7 +114,6 @@
 	position: relative;
 	background: currentColor;
 	border: solid 1px currentColor;
-	font-family: Roboto;
 	text-transform: uppercase;
 	color: var(--primary-color);
 	margin: 12px 0;

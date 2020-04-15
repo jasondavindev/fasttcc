@@ -8,7 +8,7 @@
 	
 	<link href="css/login_register.css" type="text/css" rel="stylesheet"/>
 	<link href="css/material_design.css" type="text/css" rel="stylesheet"/>
-	<link href="css/fonts.css" type="text/css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" type="text/css" rel="stylesheet"/>
 	<title>{#TITLE_SITE} - Registrar</title>
 </head>
 
