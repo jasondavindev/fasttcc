@@ -21,3 +21,5 @@ db_setup # cria estrutura do banco de dados
 ```
 
 Aplicação escutando -> http://localhost
+
+![](./images/screen_1.png | =320x568)
