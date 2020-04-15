@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   app:
-    # image: php:7.0-apache
+    container_name: fasttcc_app
     command: 'sh -c "apachectl start && until [ -n \"\" ]; do sleep 1; done;"'
     build: 
       context: .
@@ -11,16 +11,18 @@ services:
     ports:
       - 80:80
     volumes:
-      - $PWD/fasttcc/web:/var/www/html
+      - $PWD/web:/var/www/html
     networks:
       - internal
     depends_on:
       - db
 
   db:
+    container_name: fasttcc_db
     image: mysql:5.7
     volumes:
       - $PWD/volumes/mysql:/var/lib/mysql
+      - $PWD/script.sql:/var/lib/mysql/script.sql
     environment:
       MYSQL_ROOT_PASSWORD: ""
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"

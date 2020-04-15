@@ -1,6 +1,3 @@
-CREATE DATABASE fasttcc;
-USE fasttcc;
-
 CREATE TABLE equipes
 (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
