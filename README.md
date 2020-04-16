@@ -22,4 +22,9 @@ db_setup # cria estrutura do banco de dados
 
 Aplicação escutando -> http://localhost
 
-![](./images/screen_1.png | =320x568)
+<img src="./images/screen_1.png" width=50%>
+<img src="./images/screen_2.png" width=50%>
+<img src="./images/screen_3.png" width=50%>
+<img src="./images/screen_4.png" width=50%>
+<img src="./images/screen_5.png" width=50%>
+<img src="./images/screen_6.png" width=50%>
